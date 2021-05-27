@@ -107,12 +107,6 @@ public class EjercicioGIT extends Application {
 			AnchorPane.setTopAnchor(txtRazaDatos, 140.0);
 			AnchorPane.setLeftAnchor(txtRazaDatos, 90.0);
 			anclaEnviar.getChildren().addAll(lblRazaDatos, txtRazaDatos);
-			//PEDIGRI
-			AnchorPane.setTopAnchor(lblPedigriDatos, 180.0);
-			AnchorPane.setLeftAnchor(lblPedigriDatos, 20.0);
-			AnchorPane.setTopAnchor(txtPedigriDatos, 180.0);
-			AnchorPane.setLeftAnchor(txtPedigriDatos, 90.0);
-			anclaEnviar.getChildren().addAll(lblPedigriDatos, txtPedigriDatos);
 
 			//Escena y mostrar el escenario
 			Scene escenaEnviar = new Scene(anclaEnviar, 280, 250);
