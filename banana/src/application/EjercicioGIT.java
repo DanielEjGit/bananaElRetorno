@@ -114,11 +114,21 @@ public class EjercicioGIT extends Application {
 			stageEnviar.show();
 		});
 
+		sumar(4,5);
+
 		//Creacion de escena y se enseña por pantalla
 		Scene escena = new Scene(ancla, 270, 340);
 		stage.setScene(escena);
 		stage.show();
 
+	}
+
+	public int sumar(int num1, int num2){
+		int suma;
+
+		suma = num1+ num2;
+
+		return suma;
 	}
 
 	public static void main(String[] args) {
