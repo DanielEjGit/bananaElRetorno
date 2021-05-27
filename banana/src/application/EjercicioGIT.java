@@ -114,41 +114,6 @@ public class EjercicioGIT extends Application {
 			stageEnviar.show();
 		});
 
-		//Agregamos dichos campos al panel
-		//NOMBRE
-		AnchorPane.setTopAnchor(lblNombre, 20.0);
-		AnchorPane.setLeftAnchor(lblNombre, 20.0);
-		AnchorPane.setTopAnchor(txtNombre, 20.0);
-		AnchorPane.setLeftAnchor(txtNombre, 90.0);
-		ancla.getChildren().addAll(lblNombre, txtNombre);
-		//EDAD
-		AnchorPane.setTopAnchor(lblEdad, 80.0);
-		AnchorPane.setLeftAnchor(lblEdad, 20.0);
-		AnchorPane.setTopAnchor(cbxEdad, 80.0);
-		AnchorPane.setLeftAnchor(cbxEdad, 90.0);
-		ancla.getChildren().addAll(lblEdad, cbxEdad);
-		//RAZA
-		AnchorPane.setTopAnchor(lblRaza, 140.0);
-		AnchorPane.setLeftAnchor(lblRaza, 20.0);
-		AnchorPane.setTopAnchor(cbxRaza, 140.0);
-		AnchorPane.setLeftAnchor(cbxRaza, 90.0);
-		ancla.getChildren().addAll(lblRaza, cbxRaza);
-		//PEDIGRI
-		AnchorPane.setTopAnchor(lblPedigri, 200.0);
-		AnchorPane.setLeftAnchor(lblPedigri, 20.0);
-		AnchorPane.setTopAnchor(chbxPedigri, 200.0);
-		AnchorPane.setLeftAnchor(chbxPedigri, 90.0);
-		ancla.getChildren().addAll(lblPedigri, chbxPedigri);
-		//PRECIO
-		AnchorPane.setTopAnchor(lblPrecio, 260.0);
-		AnchorPane.setLeftAnchor(lblPrecio, 20.0);
-		AnchorPane.setTopAnchor(sldrPrecio, 260.0);
-		AnchorPane.setLeftAnchor(sldrPrecio, 90.0);
-		ancla.getChildren().addAll(lblPrecio, sldrPrecio);
-		//BOTON_ENVIAR
-		AnchorPane.setTopAnchor(btnEnviar, 300.0);
-		AnchorPane.setLeftAnchor(btnEnviar, 20.0);
-		ancla.getChildren().add(btnEnviar);
 		//Creacion de escena y se enseña por pantalla
 		Scene escena = new Scene(ancla, 270, 340);
 		stage.setScene(escena);
