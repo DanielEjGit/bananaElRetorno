@@ -113,12 +113,7 @@ public class EjercicioGIT extends Application {
 			AnchorPane.setTopAnchor(txtPedigriDatos, 180.0);
 			AnchorPane.setLeftAnchor(txtPedigriDatos, 90.0);
 			anclaEnviar.getChildren().addAll(lblPedigriDatos, txtPedigriDatos);
-			//PRECIO
-			AnchorPane.setTopAnchor(lblPrecioDatos, 220.0);
-			AnchorPane.setLeftAnchor(lblPrecioDatos, 20.0);
-			AnchorPane.setTopAnchor(txtPrecioDatos, 220.0);
-			AnchorPane.setLeftAnchor(txtPrecioDatos, 90.0);
-			anclaEnviar.getChildren().addAll(lblPrecioDatos, txtPrecioDatos);
+
 			//Escena y mostrar el escenario
 			Scene escenaEnviar = new Scene(anclaEnviar, 280, 250);
 			stageEnviar.setScene(escenaEnviar);
